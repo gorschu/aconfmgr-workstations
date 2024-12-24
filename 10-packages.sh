@@ -56,8 +56,6 @@ AddPackage cachyos-v4-mirrorlist # cachyos-v3-mirrorlist
 AddPackage linux-cachyos     # The Linux BORE + LTO + AutoFDO Cachy Sauce Kernel by CachyOS with other patches and improvements. kernel and modules
 AddPackage linux-cachyos-zfs # zfs module for the Linux BORE + LTO + AutoFDO Cachy Sauce Kernel by CachyOS with other patches and improvements. kernel
 
-AddPackage --foreign transcrypt # A script to configure transparent encryption of files within a Git repository
-
 AddPackage plasma-meta # Meta package to install KDE Plasma
 AddPackage qt6-multimedia-ffmpeg
 AddPackage noto-fonts

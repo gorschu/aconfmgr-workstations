@@ -26,13 +26,7 @@ elif [[ ${EUID} == 0 ]]; then
   exit 1
 fi
 
-sudo pacman -Sy --needed --noconfirm git fakeroot debugedit
-
-if ! pacman -Qi transcrypt &>/dev/null; then
-  tmpdir=$($prefix -- mktemp -d)
-  $prefix -- git clone https://aur.archlinux.org/transcrypt.git "${tmpdir}/transcrypt"
-  $prefix --chdir "${tmpdir}/transcrypt" -- makepkg --noconfirm --needed -si
-fi
+sudo pacman -Sy --needed --noconfirm git git-crypt
 
 if ! pacman -Qi aconfmgr-git &>/dev/null; then
   tmpdir=$($prefix -- mktemp -d)

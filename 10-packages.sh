@@ -7,11 +7,13 @@ AddPackage chezmoi             # Manage your dotfiles across multiple machines
 AddPackage devtools            # Tools for Arch Linux package maintainers
 AddPackage efibootmgr          # Linux user-space application to modify the EFI Boot Manager
 AddPackage git                 # the fast distributed version control system
+AddPackage git-crypt           # Transparent file encryption in Git
 AddPackage gptfdisk            # A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
 AddPackage gst-plugin-pipewire # Multimedia graph framework - pipewire plugin
 AddPackage htop                # Interactive process viewer
 AddPackage intel-media-driver  # Intel Media Driver for VAAPI — Broadwell+ iGPUs
 AddPackage iwd                 # Internet Wireless Daemon
+AddPackage just                # A handy way to save and run project-specific commands
 AddPackage less                # A terminal based program for viewing text files
 AddPackage libpulse            # A featureful, general-purpose sound server (client library)
 AddPackage libva-intel-driver  # VA-API implementation for Intel G45 and HD Graphics family

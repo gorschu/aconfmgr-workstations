@@ -26,7 +26,7 @@ elif [[ ${EUID} == 0 ]]; then
   exit 1
 fi
 
-sudo pacman -Sy --needed --noconfirm git git-crypt
+sudo pacman -Sy --needed --noconfirm git git-crypt debugedit fakeroot
 
 if ! pacman -Qi aconfmgr-git &>/dev/null; then
   tmpdir=$($prefix -- mktemp -d)

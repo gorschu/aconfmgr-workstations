@@ -15,7 +15,7 @@ CreateFile /etc/subuid- >/dev/null
 CopyFile /etc/sudoers.d/00_gorschu 440
 CopyFile /etc/systemd/zram-generator.conf
 CopyFile /etc/vconsole.conf
-CreateFile /var/db/sudo/lectured/1000 600 '' azmo >/dev/null
+CreateFile /var/db/sudo/lectured/1000 600 '' gorschu >/dev/null
 
 CopyFile /etc/mkinitcpio.d/linux-cachyos.preset
 CopyFile /etc/mkinitcpio.d/linux.preset
@@ -71,5 +71,3 @@ CreateLink /etc/fonts/conf.d/69-unifont.conf /usr/share/fontconfig/conf.default/
 CreateLink /etc/fonts/conf.d/80-delicious.conf /usr/share/fontconfig/conf.default/80-delicious.conf
 CreateLink /etc/fonts/conf.d/90-synthetic.conf /usr/share/fontconfig/conf.default/90-synthetic.conf
 CreateLink /etc/systemd/user/default.target.wants/xdg-user-dirs-update.service /usr/lib/systemd/user/xdg-user-dirs-update.service
-
-CopyFile /usr/lib/vlc/plugins/plugins.dat

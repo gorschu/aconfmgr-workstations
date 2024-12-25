@@ -55,8 +55,7 @@ AddPackage cachyos-mirrorlist    # cachyos mirrorlist
 AddPackage cachyos-v3-mirrorlist # cachyos-v3-mirrorlist
 AddPackage cachyos-v4-mirrorlist # cachyos-v3-mirrorlist
 
-AddPackage linux-cachyos     # The Linux BORE + LTO + AutoFDO Cachy Sauce Kernel by CachyOS with other patches and improvements. kernel and modules
-AddPackage linux-cachyos-zfs # zfs module for the Linux BORE + LTO + AutoFDO Cachy Sauce Kernel by CachyOS with other patches and improvements. kernel
+AddPackage linux-cachyos # The Linux BORE + LTO + AutoFDO Cachy Sauce Kernel by CachyOS with other patches and improvements. kernel and modules
 
 AddPackage plasma-meta # Meta package to install KDE Plasma
 AddPackage qt6-multimedia-ffmpeg

@@ -1,6 +1,6 @@
 # shellcheck shell=bash
 declare -A partitions
-partitions["hephaestus"]="ata-QEMU_HARDDISK_QM00003-part2"
+partitions["apollo"]="ata-QEMU_HARDDISK_QM00003-part2"
 
 function get_root_UUID {
   sudo blkid -s UUID -o value /dev/disk/by-id/"${partitions["${1}"]}"

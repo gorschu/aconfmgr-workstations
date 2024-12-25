@@ -81,7 +81,7 @@
     "lvm_volumes": [],
     "partitions": ["fb98a743-447f-43e5-aca5-6dfbb12c374c"]
   },
-  "hostname": "hephaestus",
+  "hostname": "apollo",
   "kernels": ["linux"],
   "locale_config": {
     "kb_layout": "de",

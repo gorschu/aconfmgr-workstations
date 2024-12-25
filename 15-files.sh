@@ -12,7 +12,7 @@ CopyFile /etc/subgid
 CreateFile /etc/subgid- >/dev/null
 CopyFile /etc/subuid
 CreateFile /etc/subuid- >/dev/null
-CopyFile /etc/sudoers.d/00_azmo 440
+CopyFile /etc/sudoers.d/00_gorschu 440
 CopyFile /etc/systemd/zram-generator.conf
 CopyFile /etc/vconsole.conf
 CreateFile /var/db/sudo/lectured/1000 600 '' azmo >/dev/null

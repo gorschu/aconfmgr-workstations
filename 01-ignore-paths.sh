@@ -15,6 +15,7 @@ IgnorePath '/etc/shadow**'
 IgnorePath '/etc/machine-id'
 
 IgnorePath '/usr/lib'
+IgnorePath '/usr/lib/vlc/plugins/plugins.dat'
 IgnorePath '/usr/share'
 
 IgnorePath '/var/.updated'

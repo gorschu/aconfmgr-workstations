@@ -59,7 +59,8 @@ AddPackage linux-cachyos # The Linux BORE + LTO + AutoFDO Cachy Sauce Kernel by 
 
 AddPackage plasma-meta # Meta package to install KDE Plasma
 AddPackage qt6-multimedia-ffmpeg
-AddPackage noto-fonts
-AddPackage noto-fonts-emoji
+
+AddPackage man-db # A utility for reading man pages
+AddPackage tldr   # Command line client for tldr, a collection of simplified man pages.
 
 RemovePackage nano

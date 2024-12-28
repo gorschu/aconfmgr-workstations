@@ -19,7 +19,6 @@ AddPackage libpulse            # A featureful, general-purpose sound server (cli
 AddPackage libva-intel-driver  # VA-API implementation for Intel G45 and HD Graphics family
 AddPackage linux               # The Linux kernel and modules
 AddPackage linux-firmware      # Firmware files for Linux
-AddPackage networkmanager      # Network connection manager and user applications
 AddPackage paru                # Feature packed AUR helper
 AddPackage pipewire            # Low-latency audio/video router and processor
 AddPackage pipewire-alsa       # Low-latency audio/video router and processor - ALSA configuration

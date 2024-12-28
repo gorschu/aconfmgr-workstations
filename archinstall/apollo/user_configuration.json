@@ -1,112 +1,126 @@
 {
-  "additional-repositories": [],
-  "archinstall-language": "English",
-  "audio_config": {
-    "audio": "pipewire"
-  },
-  "bootloader": "Systemd-boot",
-  "config_version": "3.0.1",
-  "disk_config": {
-    "config_type": "manual_partitioning",
-    "device_modifications": [
-      {
-        "device": "/dev/sda",
+    "additional-repositories": [],
+    "archinstall-language": "English",
+    "audio_config": {
+        "audio": "pipewire"
+    },
+    "bootloader": "Systemd-boot",
+    "config_version": "3.0.1",
+    "disk_config": {
+        "config_type": "manual_partitioning",
+        "device_modifications": [
+            {
+                "device": "/dev/nvme0n1",
+                "partitions": [
+                    {
+                        "btrfs": [],
+                        "dev_path": null,
+                        "flags": [
+                            "boot",
+                            "esp"
+                        ],
+                        "fs_type": "fat32",
+                        "mount_options": [],
+                        "mountpoint": "/boot",
+                        "obj_id": "1ed01d59-2bc8-451a-a4fb-dd7ff74277ce",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 5368691712
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "sectors",
+                            "value": 34
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [
+                            {
+                                "mountpoint": "/",
+                                "name": "@"
+                            }
+                        ],
+                        "dev_path": null,
+                        "flags": [],
+                        "fs_type": "btrfs",
+                        "mount_options": [
+                            "compress=zstd"
+                        ],
+                        "mountpoint": null,
+                        "obj_id": "21180e8e-f6a0-414d-b0ba-bf88385f79d0",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 53687091200
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "GiB",
+                            "value": 5
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    }
+                ],
+                "wipe": false
+            }
+        ]
+    },
+    "disk_encryption": {
+        "encryption_type": "luks",
+        "lvm_volumes": [],
         "partitions": [
-          {
-            "btrfs": [],
-            "dev_path": null,
-            "flags": ["boot", "esp"],
-            "fs_type": "fat32",
-            "mount_options": [],
-            "mountpoint": "/boot",
-            "obj_id": "15b0143b-4a20-4c32-893c-61e9e061204f",
-            "size": {
-              "sector_size": {
-                "unit": "B",
-                "value": 512
-              },
-              "unit": "B",
-              "value": 5368691712
-            },
-            "start": {
-              "sector_size": {
-                "unit": "B",
-                "value": 512
-              },
-              "unit": "sectors",
-              "value": 34
-            },
-            "status": "create",
-            "type": "primary"
-          },
-          {
-            "btrfs": [
-              {
-                "mountpoint": "/",
-                "name": "@"
-              }
-            ],
-            "dev_path": null,
-            "flags": [],
-            "fs_type": "btrfs",
-            "mount_options": ["compress=zstd"],
-            "mountpoint": null,
-            "obj_id": "fb98a743-447f-43e5-aca5-6dfbb12c374c",
-            "size": {
-              "sector_size": {
-                "unit": "B",
-                "value": 512
-              },
-              "unit": "B",
-              "value": 53687091200
-            },
-            "start": {
-              "sector_size": {
-                "unit": "B",
-                "value": 512
-              },
-              "unit": "GiB",
-              "value": 5
-            },
-            "status": "create",
-            "type": "primary"
-          }
-        ],
-        "wipe": true
-      }
-    ]
-  },
-  "disk_encryption": {
-    "encryption_type": "luks",
-    "lvm_volumes": [],
-    "partitions": ["fb98a743-447f-43e5-aca5-6dfbb12c374c"]
-  },
-  "hostname": "apollo",
-  "kernels": ["linux"],
-  "locale_config": {
-    "kb_layout": "de",
-    "sys_enc": "UTF-8",
-    "sys_lang": "en_US"
-  },
-  "mirror_config": null,
-  "network_config": {
-    "type": "nm"
-  },
-  "ntp": true,
-  "packages": ["openssh", "rsync", "git", "neovim"],
-  "parallel downloads": 0,
-  "profile_config": {
-    "gfx_driver": null,
-    "greeter": null,
-    "profile": {
-      "custom_settings": {},
-      "details": [],
-      "main": "Minimal"
-    }
-  },
-  "save_config": null,
-  "swap": true,
-  "timezone": "Europe/Berlin",
-  "uki": true,
-  "version": "3.0.1"
+            "21180e8e-f6a0-414d-b0ba-bf88385f79d0"
+        ]
+    },
+    "hostname": "apollo",
+    "kernels": [
+        "linux"
+    ],
+    "locale_config": {
+        "kb_layout": "de",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US"
+    },
+    "mirror_config": null,
+    "network_config": {
+        "type": "nm"
+    },
+    "ntp": true,
+    "packages": [
+        "openssh",
+        "rsync",
+        "git",
+        "neovim"
+    ],
+    "parallel downloads": 0,
+    "profile_config": {
+        "gfx_driver": null,
+        "greeter": null,
+        "profile": {
+            "custom_settings": {},
+            "details": [],
+            "main": "Minimal"
+        }
+    },
+    "save_config": null,
+    "swap": true,
+    "timezone": "Europe/Berlin",
+    "uki": true,
+    "version": "3.0.1"
 }

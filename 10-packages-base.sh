@@ -56,9 +56,6 @@ AddPackage cachyos-v4-mirrorlist # cachyos-v3-mirrorlist
 
 AddPackage linux-cachyos # The Linux BORE + LTO + AutoFDO Cachy Sauce Kernel by CachyOS with other patches and improvements. kernel and modules
 
-AddPackage plasma-meta # Meta package to install KDE Plasma
-AddPackage qt6-multimedia-ffmpeg
-
 AddPackage man-db # A utility for reading man pages
 AddPackage tldr   # Command line client for tldr, a collection of simplified man pages.
 

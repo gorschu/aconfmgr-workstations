@@ -33,7 +33,6 @@ CreateLink /etc/systemd/user/sockets.target.wants/p11-kit-server.socket /usr/lib
 CreateLink /etc/systemd/user/sockets.target.wants/pipewire-pulse.socket /usr/lib/systemd/user/pipewire-pulse.socket
 CreateLink /etc/systemd/user/sockets.target.wants/pipewire.socket /usr/lib/systemd/user/pipewire.socket
 CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/systemd/system/sshd.service
-CreateLink /etc/systemd/system/display-manager.service /usr/lib/systemd/system/sddm.service
 
 SetFileProperty /usr/bin/groupmems group groups
 SetFileProperty /usr/bin/groupmems mode 2750

@@ -8,7 +8,6 @@ CopyFile /etc/mkinitcpio.conf
 CopyFile /etc/mkinitcpio.d/linux.preset
 CopyFile /etc/pacman.conf
 CopyFile /etc/pacman.d/mirrorlist
-CopyFile /etc/shells
 CopyFile /etc/subgid
 CreateFile /etc/subgid- >/dev/null
 CopyFile /etc/subuid

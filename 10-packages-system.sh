@@ -12,7 +12,6 @@ AddPackage gptfdisk            # A text-mode partitioning tool that works on GUI
 AddPackage gst-plugin-pipewire # Multimedia graph framework - pipewire plugin
 AddPackage htop                # Interactive process viewer
 AddPackage intel-media-driver  # Intel Media Driver for VAAPI — Broadwell+ iGPUs
-AddPackage iwd                 # Internet Wireless Daemon
 AddPackage just                # A handy way to save and run project-specific commands
 AddPackage less                # A terminal based program for viewing text files
 AddPackage libpulse            # A featureful, general-purpose sound server (client library)
@@ -23,13 +22,9 @@ AddPackage pipewire            # Low-latency audio/video router and processor
 AddPackage pipewire-alsa       # Low-latency audio/video router and processor - ALSA configuration
 AddPackage pipewire-jack       # Low-latency audio/video router and processor - JACK replacement
 AddPackage pipewire-pulse      # Low-latency audio/video router and processor - PulseAudio replacement
-AddPackage rsync               # A fast and versatile file copying tool for remote and local files
-AddPackage openssh             # SSH protocol implementation for remote login, command execution and file transfer
 AddPackage smartmontools       # Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
 AddPackage vulkan-intel        # Open-source Vulkan driver for Intel GPUs
 AddPackage vulkan-radeon       # Open-source Vulkan driver for AMD GPUs
-AddPackage wget                # Network utility to retrieve files from the Web
-AddPackage wireless_tools      # Tools allowing to manipulate the Wireless Extensions
 AddPackage wireplumber         # Session / policy manager implementation for PipeWire
 AddPackage zram-generator      # Systemd unit generator for zram devices
 

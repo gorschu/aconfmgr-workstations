@@ -4,10 +4,7 @@ AddPackage base-devel          # Basic tools to build Arch Linux packages
 AddPackage bat                 # Cat clone with syntax highlighting and git integration
 AddPackage btrfs-progs         # Btrfs filesystem utilities
 AddPackage chezmoi             # Manage your dotfiles across multiple machines
-AddPackage devtools            # Tools for Arch Linux package maintainers
 AddPackage efibootmgr          # Linux user-space application to modify the EFI Boot Manager
-AddPackage git                 # the fast distributed version control system
-AddPackage git-crypt           # Transparent file encryption in Git
 AddPackage gptfdisk            # A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
 AddPackage gst-plugin-pipewire # Multimedia graph framework - pipewire plugin
 AddPackage htop                # Interactive process viewer

@@ -46,3 +46,7 @@ CreateLink /etc/os-release ../usr/lib/os-release
 
 CreateLink /etc/systemd/user/default.target.wants/xdg-user-dirs-update.service /usr/lib/systemd/user/xdg-user-dirs-update.service
 
+SetFileProperty /var/lib/passim/data group passim
+SetFileProperty /var/lib/passim/data owner passim
+SetFileProperty /var/lib/passim group passim
+SetFileProperty /var/lib/passim owner passim

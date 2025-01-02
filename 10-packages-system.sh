@@ -9,9 +9,6 @@ AddPackage linux-firmware      # Firmware files for Linux
 AddPackage smartmontools       # Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
 AddPackage zram-generator      # Systemd unit generator for zram devices
 
-AddPackage crun           # A fast and lightweight fully featured OCI runtime and C library for running containers
-AddPackage podman         # Tool and library for running OCI-based containers in pods
-AddPackage podman-compose # A script to run docker-compose.yml using podman
 
 AddPackage sbsigntools   # Tools to add signatures to EFI binaries and Drivers
 AddPackage systemd-ukify # Combine kernel and initrd into a signed Unified Kernel Image

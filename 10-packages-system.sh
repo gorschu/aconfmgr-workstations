@@ -19,13 +19,10 @@ AddPackage libpulse            # A featureful, general-purpose sound server (cli
 AddPackage libva-intel-driver  # VA-API implementation for Intel G45 and HD Graphics family
 AddPackage linux               # The Linux kernel and modules
 AddPackage linux-firmware      # Firmware files for Linux
-AddPackage paru                # Feature packed AUR helper
 AddPackage pipewire            # Low-latency audio/video router and processor
 AddPackage pipewire-alsa       # Low-latency audio/video router and processor - ALSA configuration
 AddPackage pipewire-jack       # Low-latency audio/video router and processor - JACK replacement
 AddPackage pipewire-pulse      # Low-latency audio/video router and processor - PulseAudio replacement
-AddPackage pkgfile             # alpm .files metadata explorer
-AddPackage reflector           # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 AddPackage rsync               # A fast and versatile file copying tool for remote and local files
 AddPackage openssh             # SSH protocol implementation for remote login, command execution and file transfer
 AddPackage smartmontools       # Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
@@ -46,13 +43,6 @@ AddPackage systemd-ukify # Combine kernel and initrd into a signed Unified Kerne
 AddPackage neovim       # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage wl-clipboard # Command-line copy/paste utilities for Wayland
 
-AddPackage aconfmgr-git          # A configuration manager for Arch Linux
-AddPackage chaotic-keyring       # Chaotic-AUR PGP keyring
-AddPackage chaotic-mirrorlist    # Chaotic-AUR mirrorlist to use with Pacman
-AddPackage cachyos-keyring       # CachyOS keyring
-AddPackage cachyos-mirrorlist    # cachyos mirrorlist
-AddPackage cachyos-v3-mirrorlist # cachyos-v3-mirrorlist
-AddPackage cachyos-v4-mirrorlist # cachyos-v3-mirrorlist
 
 AddPackage linux-cachyos # The Linux BORE + LTO + AutoFDO Cachy Sauce Kernel by CachyOS with other patches and improvements. kernel and modules
 

@@ -14,6 +14,7 @@ IgnorePath '/etc/ld.so.cache'
 
 IgnorePath '/etc/.updated'
 IgnorePath '/etc/.pwd.lock'
+IgnorePath '/etc/brlapi.key'
 IgnorePath '/etc/passwd*'
 IgnorePath '/etc/shadow*'
 IgnorePath '/etc/machine-id'

@@ -13,7 +13,7 @@ _aconfmgr:
 _user-services:
   #!/usr/bin/env bash
   systemctl --user daemon-reload
-  for service in atuin.service; do
+  for service in atuin.service systemd-tmpfiles-setup.service; do
     systemctl --user enable --now "${service}"
   done
 

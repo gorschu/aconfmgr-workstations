@@ -1,8 +1,8 @@
 # shellcheck shell=bash
-AddPackage ttf-jetbrains-mono-nerd # Patched font JetBrains Mono from nerd fonts library
 AddPackage noto-fonts
 AddPackage noto-fonts-emoji
-AddPackage ttf-dejavu # Font family based on the Bitstream Vera Fonts with a wider range of characters
+AddPackage ttf-dejavu              # Font family based on the Bitstream Vera Fonts with a wider range of characters
+AddPackage ttf-jetbrains-mono-nerd # Patched font JetBrains Mono from nerd fonts library
 
 CreateLink /etc/fonts/conf.d/10-hinting-slight.conf /usr/share/fontconfig/conf.default/10-hinting-slight.conf
 CreateLink /etc/fonts/conf.d/10-scale-bitmap-fonts.conf /usr/share/fontconfig/conf.default/10-scale-bitmap-fonts.conf

@@ -1,15 +1,14 @@
 # shellcheck shell=bash
+AddPackage bluez-utils    # Development and debugging utilities for the bluetooth protocol stack
+AddPackage iwd            # Internet Wireless Daemon
 AddPackage ldns           # Fast DNS library supporting recent RFCs
 AddPackage mtr            # Combines the functionality of traceroute and ping into one tool (CLI version)
-AddPackage iwd            # Internet Wireless Daemon
-AddPackage rsync          # A fast and versatile file copying tool for remote and local files
 AddPackage openssh        # SSH protocol implementation for remote login, command execution and file transfer
-AddPackage wget           # Network utility to retrieve files from the Web
-AddPackage wireless_tools # Tools allowing to manipulate the Wireless Extensions
+AddPackage rsync          # A fast and versatile file copying tool for remote and local files
 AddPackage sshfs          # FUSE client based on the SSH File Transfer Protocol
-
-AddPackage bluez-utils    # Development and debugging utilities for the bluetooth protocol stack
+AddPackage wget           # Network utility to retrieve files from the Web
 AddPackage wireless-regdb # Central Regulatory Domain Database
+AddPackage wireless_tools # Tools allowing to manipulate the Wireless Extensions
 
 CopyFile /etc/conf.d/wireless-regdom
 CreateLink /etc/systemd/system/bluetooth.target.wants/bluetooth.service /usr/lib/systemd/system/bluetooth.service

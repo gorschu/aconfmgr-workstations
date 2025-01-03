@@ -71,3 +71,10 @@ qemu:!*::
 saned:!*::
 usbmux:!*::
 cups:!*::
+fwupd:!*::
+passim:!*::
+incus:!*::incus
+incus-admin:!*::
+dnsmasq:!*::
+gluster:!*::
+rpc:!*::

@@ -73,3 +73,8 @@ usbmux:x:140:
 cups:x:209:
 fwupd:x:958:
 passim:x:957:
+incus:x:956:incus
+incus-admin:x:955:gorschu
+dnsmasq:x:954:
+gluster:x:953:
+rpc:x:32:

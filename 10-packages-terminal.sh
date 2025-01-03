@@ -2,7 +2,9 @@
 AddPackage atuin           # Magical shell history
 AddPackage bat             # Cat clone with syntax highlighting and git integration
 AddPackage btop            # A monitor of system resources, bpytop ported to C++
+AddPackage cdrtools        # Highly portable CD/DVD/BluRay command line recording software
 AddPackage chezmoi         # Manage your dotfiles across multiple machines
+AddPackage eza             # A modern replacement for ls (community fork of exa)
 AddPackage fd              # Simple, fast and user-friendly alternative to find
 AddPackage fzf             # Command-line fuzzy finder
 AddPackage htop            # Interactive process viewer
@@ -14,6 +16,7 @@ AddPackage tldr            # Command line client for tldr, a collection of simpl
 AddPackage topgrade        # Upgrade all the things
 AddPackage unzip           # For extracting and viewing files in .zip archives
 AddPackage vivid           # LS_COLORS manager with multiple themes
+AddPackage xdelta3         # Diff utility for binary files
 AddPackage yubikey-manager # Python library and command line tool for configuring a YubiKey
 AddPackage zellij          # A terminal multiplexer
 AddPackage zsh             # A very advanced and programmable command interpreter (shell) for UNIX

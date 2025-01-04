@@ -8,9 +8,11 @@ AddPackage eza             # A modern replacement for ls (community fork of exa)
 AddPackage fd              # Simple, fast and user-friendly alternative to find
 AddPackage fzf             # Command-line fuzzy finder
 AddPackage htop            # Interactive process viewer
+AddPackage imagemagick     # An image viewing/manipulation program
 AddPackage just            # A handy way to save and run project-specific commands
 AddPackage less            # A terminal based program for viewing text files
 AddPackage neovim          # Fork of Vim aiming to improve user experience, plugins, and GUIs
+AddPackage renameutils     # A set of programs designed to make renaming of files faster and less cumbersome
 AddPackage starship        # The cross-shell prompt for astronauts
 AddPackage tldr            # Command line client for tldr, a collection of simplified man pages.
 AddPackage topgrade        # Upgrade all the things

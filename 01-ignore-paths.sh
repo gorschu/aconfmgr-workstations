@@ -21,6 +21,8 @@ IgnorePath '/etc/machine-id'
 IgnorePath '/etc/tuned/*'
 IgnorePath '/etc/cups/subscriptions*'
 IgnorePath '/etc/printcap'
+IgnorePath '/etc/subuid-'
+IgnorePath '/etc/subgid-'
 
 IgnorePath '/usr/lib'
 IgnorePath '/usr/lib/vlc/plugins/plugins.dat'

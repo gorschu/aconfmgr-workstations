@@ -9,9 +9,7 @@ CopyFile /etc/mkinitcpio.d/linux.preset
 CopyFile /etc/pacman.conf
 CopyFile /etc/pacman.d/mirrorlist
 CopyFile /etc/subgid
-CreateFile /etc/subgid- >/dev/null
 CopyFile /etc/subuid
-CreateFile /etc/subuid- >/dev/null
 CopyFile /etc/sudoers.d/00_gorschu 440
 CopyFile /etc/systemd/zram-generator.conf
 CopyFile /etc/vconsole.conf

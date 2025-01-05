@@ -1,5 +1,6 @@
 # shellcheck shell=bash
 AddPackage bluez-utils    # Development and debugging utilities for the bluetooth protocol stack
+AddPackage gnu-netcat     # GNU rewrite of netcat, the network piping application
 AddPackage iwd            # Internet Wireless Daemon
 AddPackage ldns           # Fast DNS library supporting recent RFCs
 AddPackage mtr            # Combines the functionality of traceroute and ping into one tool (CLI version)

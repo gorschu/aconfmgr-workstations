@@ -7,3 +7,5 @@ AddPackage --foreign 1password-cli
 
 SetFileProperty /opt/1Password/1Password-BrowserSupport group onepassword
 SetFileProperty /opt/1Password/1Password-BrowserSupport mode 2755
+SetFileProperty /usr/bin/op group onepassword-cli
+SetFileProperty /usr/bin/op mode 2755

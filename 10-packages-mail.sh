@@ -1,4 +1,5 @@
 # shellcheck shell=bash
+AddPackage afew                # Initial tagging script for notmuch mail
 AddPackage elinks              # Advanced feature-rich text-mode web browser
 AddPackage --foreign isync-git # IMAP and MailDir mailbox synchronizer
 AddPackage imlib2              # Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support

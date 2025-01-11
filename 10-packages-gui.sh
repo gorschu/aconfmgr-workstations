@@ -1,5 +1,6 @@
 # shellcheck shell=bash
 AddPackage firefox             # Fast, Private & Safe Web Browser
+AddPackage flatpak             # Linux application sandboxing and distribution framework (formerly xdg-app)
 AddPackage gst-plugin-pipewire # Multimedia graph framework - pipewire plugin
 AddPackage intel-media-driver  # Intel Media Driver for VAAPI — Broadwell+ iGPUs
 AddPackage libpulse            # A featureful, general-purpose sound server (client library)

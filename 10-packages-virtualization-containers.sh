@@ -1,5 +1,6 @@
 # shellcheck shell=bash
 AddPackage crun           # A fast and lightweight fully featured OCI runtime and C library for running containers
+AddPackage distrobox      # Use any linux distribution inside your terminal.
 AddPackage incus          # Powerful system container and virtual machine manager
 AddPackage libvirt        # API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
 AddPackage podman         # Tool and library for running OCI-based containers in pods
@@ -15,6 +16,8 @@ CreateLink /etc/systemd/system/sockets.target.wants/incus.socket /usr/lib/system
 CreateLink /etc/systemd/system/sockets.target.wants/libvirtd-admin.socket /usr/lib/systemd/system/libvirtd-admin.socket
 CreateLink /etc/systemd/system/sockets.target.wants/libvirtd-ro.socket /usr/lib/systemd/system/libvirtd-ro.socket
 CreateLink /etc/systemd/system/sockets.target.wants/libvirtd.socket /usr/lib/systemd/system/libvirtd.socket
+
+CreateDir /etc/containers/networks
 
 SetFileProperty /var/lib/swtpm-localca owner tss
 

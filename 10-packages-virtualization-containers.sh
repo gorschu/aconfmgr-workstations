@@ -17,3 +17,6 @@ CreateLink /etc/systemd/system/sockets.target.wants/libvirtd-ro.socket /usr/lib/
 CreateLink /etc/systemd/system/sockets.target.wants/libvirtd.socket /usr/lib/systemd/system/libvirtd.socket
 
 SetFileProperty /var/lib/swtpm-localca owner tss
+
+# ensure necessary modules are always loaded
+CopyFile /etc/modules-load.d/containers.conf

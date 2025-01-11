@@ -22,8 +22,6 @@ CopyFile /etc/gshadow- 600
 CopyFile /etc/mkinitcpio.d/linux-cachyos.preset
 CopyFile /etc/mkinitcpio.d/linux.preset
 
-CopyFile /etc/modules-load.d/overlay.conf
-
 CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
 
 CreateLink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service /usr/lib/systemd/system/NetworkManager-dispatcher.service

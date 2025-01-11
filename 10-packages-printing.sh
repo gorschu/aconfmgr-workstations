@@ -7,7 +7,7 @@ AddPackage epson-inkjet-printer-escpr2 # Epson Inkjet Printer Driver 2 (ESC/P-R)
 CopyFile /etc/cups/ppd/EPSON_WF-4830_Series.ppd 640 '' cups
 CopyFile /etc/cups/ppd/EPSON_WF-4830_Series.ppd.O 640 '' cups
 CopyFile /etc/cups/printers.conf 600
-CreateFile /etc/cups/printers.conf.O 600 '' cups >/dev/null
+CopyFile /etc/cups/printers.conf.O 600 '' cups
 
 CreateLink /etc/systemd/system/sockets.target.wants/cups.socket /usr/lib/systemd/system/cups.socket
 SetFileProperty /etc/cups/classes.conf mode 600

@@ -15,10 +15,14 @@ AddPackage neovim          # Fork of Vim aiming to improve user experience, plug
 AddPackage renameutils     # A set of programs designed to make renaming of files faster and less cumbersome
 AddPackage starship        # The cross-shell prompt for astronauts
 AddPackage tldr            # Command line client for tldr, a collection of simplified man pages.
+AddPackage tmux            # Terminal multiplexer
 AddPackage topgrade        # Upgrade all the things
+AddPackage trash-cli       # Command line trashcan (recycle bin) interface
 AddPackage unzip           # For extracting and viewing files in .zip archives
 AddPackage vivid           # LS_COLORS manager with multiple themes
 AddPackage xdelta3         # Diff utility for binary files
+AddPackage yt-dlp          # A youtube-dl fork with additional features and fixes
 AddPackage yubikey-manager # Python library and command line tool for configuring a YubiKey
 AddPackage zellij          # A terminal multiplexer
+AddPackage zoxide          # A smarter cd command for your terminal
 AddPackage zsh             # A very advanced and programmable command interpreter (shell) for UNIX

@@ -1,12 +1,15 @@
 # shellcheck shell=bash
+AddPackage aria2          # Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink
 AddPackage bluez-utils    # Development and debugging utilities for the bluetooth protocol stack
 AddPackage gnu-netcat     # GNU rewrite of netcat, the network piping application
 AddPackage iwd            # Internet Wireless Daemon
 AddPackage ldns           # Fast DNS library supporting recent RFCs
 AddPackage mtr            # Combines the functionality of traceroute and ping into one tool (CLI version)
 AddPackage openssh        # SSH protocol implementation for remote login, command execution and file transfer
+AddPackage rclone         # Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage
 AddPackage rsync          # A fast and versatile file copying tool for remote and local files
 AddPackage sshfs          # FUSE client based on the SSH File Transfer Protocol
+AddPackage tailscale      # A mesh VPN that makes it easy to connect your devices, wherever they are.
 AddPackage wget           # Network utility to retrieve files from the Web
 AddPackage wireless-regdb # Central Regulatory Domain Database
 AddPackage wireless_tools # Tools allowing to manipulate the Wireless Extensions

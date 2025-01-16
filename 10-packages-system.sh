@@ -1,4 +1,5 @@
 # shellcheck shell=bash
+AddPackage acpi                    # Client for battery, power, and thermal readings
 AddPackage base                    # Minimal package set to define a basic Arch Linux installation
 AddPackage base-devel              # Basic tools to build Arch Linux packages
 AddPackage btrfs-progs             # Btrfs filesystem utilities

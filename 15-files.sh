@@ -1,12 +1,7 @@
 # shellcheck shell=bash
-
 CopyFile /etc/locale.conf
 CopyFile /etc/locale.gen
 CreateLink /etc/localtime /usr/share/zoneinfo/Europe/Berlin
-CopyFile /etc/mkinitcpio.conf
-CopyFile /etc/mkinitcpio.d/linux.preset
-CopyFile /etc/pacman.conf
-CopyFile /etc/pacman.d/mirrorlist
 CopyFile /etc/subgid
 CopyFile /etc/subuid
 CopyFile /etc/sudoers.d/00_gorschu 440
@@ -17,9 +12,6 @@ CopyFile /etc/group
 CopyFile /etc/group-
 CopyFile /etc/gshadow
 CopyFile /etc/gshadow- 600
-
-CopyFile /etc/mkinitcpio.d/linux-cachyos.preset
-CopyFile /etc/mkinitcpio.d/linux.preset
 
 CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
 

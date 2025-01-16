@@ -1,5 +1,4 @@
 # shellcheck shell=bash
-CopyFile /boot/loader/loader.conf 755
 
 CopyFile /etc/locale.conf
 CopyFile /etc/locale.gen

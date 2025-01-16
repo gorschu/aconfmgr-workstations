@@ -1,4 +1,5 @@
 files/etc/ssh/**/*_key filter=git-crypt diff=git-crypt
 files/etc/NetworkManager/system-connections/*.nmconnection filter=git-crypt diff=git-crypt
+files/etc/zfs/zfskey_* filter=git-crypt diff=git-crypt
 archinstall/**/user_credentials.json filter=git-crypt diff=git-crypt
 .gitattributes !filter !diff

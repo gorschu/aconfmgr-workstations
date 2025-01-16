@@ -7,6 +7,7 @@ AddPackage chezmoi         # Manage your dotfiles across multiple machines
 AddPackage eza             # A modern replacement for ls (community fork of exa)
 AddPackage fd              # Simple, fast and user-friendly alternative to find
 AddPackage fzf             # Command-line fuzzy finder
+AddPackage gdu             # Fast disk usage analyzer
 AddPackage htop            # Interactive process viewer
 AddPackage imagemagick     # An image viewing/manipulation program
 AddPackage just            # A handy way to save and run project-specific commands

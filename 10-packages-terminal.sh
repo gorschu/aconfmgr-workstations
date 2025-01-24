@@ -1,4 +1,5 @@
 # shellcheck shell=bash
+AddPackage 7zip            # File archiver for extremely high compression
 AddPackage atuin           # Magical shell history
 AddPackage bat             # Cat clone with syntax highlighting and git integration
 AddPackage btop            # A monitor of system resources, bpytop ported to C++

@@ -1,9 +1,9 @@
 # shellcheck shell=bash
 if grep -q zfs /proc/modules; then
-  CopyFile /etc/modprobe.d/zfs.conf
+  CopyFile "/etc/modprobe.d/zfs.conf"
   CopyFile "/etc/zfs/zfskey_rpool_$(hostnamectl hostname)" 600
-  CopyFile /etc/systemd/system/zfs-load-key.service
-  IgnorePath /etc/zfs/zpool.cache
+  CopyFile "/etc/systemd/system/zfs-load-key.service"
+  IgnorePath "/etc/zfs/zpool.cache"
 
   CreateLink /etc/systemd/system/multi-user.target.wants/zfs.target /usr/lib/systemd/system/zfs.target
   CreateLink /etc/systemd/system/zfs-import.target.wants/zfs-import-scan.service /usr/lib/systemd/system/zfs-import-scan.service

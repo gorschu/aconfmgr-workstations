@@ -1,4 +1,5 @@
 # shellcheck shell=bash
+AddPackage discord             # All-in-one voice and text chat for gamers
 AddPackage firefox             # Fast, Private & Safe Web Browser
 AddPackage flatpak             # Linux application sandboxing and distribution framework (formerly xdg-app)
 AddPackage gst-plugin-pipewire # Multimedia graph framework - pipewire plugin

@@ -19,8 +19,6 @@ IgnorePath '/etc/passwd*'
 IgnorePath '/etc/shadow*'
 IgnorePath '/etc/machine-id'
 IgnorePath '/etc/tuned/*'
-IgnorePath '/etc/cups/subscriptions*'
-IgnorePath '/etc/printcap'
 IgnorePath '/etc/subuid-'
 IgnorePath '/etc/subgid-'
 

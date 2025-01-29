@@ -19,6 +19,7 @@ IgnorePath '/etc/passwd*'
 IgnorePath '/etc/shadow*'
 IgnorePath '/etc/machine-id'
 IgnorePath '/etc/tuned/*'
+IgnorePath '/etc/fwupd/*'
 IgnorePath '/etc/subuid-'
 IgnorePath '/etc/subgid-'
 

@@ -2,6 +2,7 @@
 AddPackage dolphin                  # KDE File Manager
 AddPackage kdeconnect               # Adds communication between KDE and your smartphone
 AddPackage kdegraphics-thumbnailers # Thumbnailers for various graphics file formats
+AddPackage kdialog                  # A utility for displaying dialog boxes from shell scripts
 AddPackage konsole                  # KDE terminal emulator
 AddPackage okular                   # Document Viewer
 AddPackage plasma-meta              # Meta package to install KDE Plasma

@@ -4,6 +4,7 @@ AddPackage kdeconnect               # Adds communication between KDE and your sm
 AddPackage kdegraphics-thumbnailers # Thumbnailers for various graphics file formats
 AddPackage kdialog                  # A utility for displaying dialog boxes from shell scripts
 AddPackage konsole                  # KDE terminal emulator
+AddPackage kwalletmanager           # Wallet management tool
 AddPackage okular                   # Document Viewer
 AddPackage plasma-meta              # Meta package to install KDE Plasma
 AddPackage qt6-multimedia-ffmpeg

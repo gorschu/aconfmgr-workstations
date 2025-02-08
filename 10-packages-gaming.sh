@@ -13,5 +13,7 @@ EOF
   AddPackage proton-cachyos      # Compatibility tool for Steam Play based on Wine and additional components, experimental branch with extra CachyOS flavour
   AddPackage protonup-qt         # Install and manage Proton-GE and Luxtorpeda for Steam and Wine-GE for Lutris
 
+  flatpak install flathub --user -y net.lutris.Lutris
+
   IgnorePath "/usr/lib32"
 fi

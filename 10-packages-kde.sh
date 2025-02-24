@@ -3,8 +3,10 @@ AddPackage dolphin                  # KDE File Manager
 AddPackage kdeconnect               # Adds communication between KDE and your smartphone
 AddPackage kdegraphics-thumbnailers # Thumbnailers for various graphics file formats
 AddPackage kdialog                  # A utility for displaying dialog boxes from shell scripts
+AddPackage kimageformats            # Image format plugins for Qt 6
 AddPackage konsole                  # KDE terminal emulator
 AddPackage kwalletmanager           # Wallet management tool
+AddPackage gwenview                 # A fast and easy to use image viewer
 AddPackage okular                   # Document Viewer
 AddPackage plasma-meta              # Meta package to install KDE Plasma
 AddPackage qt6-multimedia-ffmpeg

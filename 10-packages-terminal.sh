@@ -4,6 +4,7 @@ AddPackage atuin           # Magical shell history
 AddPackage bat             # Cat clone with syntax highlighting and git integration
 AddPackage btop            # A monitor of system resources, bpytop ported to C++
 AddPackage cdrtools        # Highly portable CD/DVD/BluRay command line recording software
+AddPackage chafa           # Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.
 AddPackage chezmoi         # Manage your dotfiles across multiple machines
 AddPackage eza             # A modern replacement for ls (community fork of exa)
 AddPackage fd              # Simple, fast and user-friendly alternative to find
@@ -24,6 +25,7 @@ AddPackage trash-cli       # Command line trashcan (recycle bin) interface
 AddPackage unzip           # For extracting and viewing files in .zip archives
 AddPackage vivid           # LS_COLORS manager with multiple themes
 AddPackage xdelta3         # Diff utility for binary files
+AddPackage yazi            # Blazing fast terminal file manager written in Rust, based on async I/O
 AddPackage yt-dlp          # A youtube-dl fork with additional features and fixes
 AddPackage yubikey-manager # Python library and command line tool for configuring a YubiKey
 AddPackage zellij          # A terminal multiplexer

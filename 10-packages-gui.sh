@@ -19,3 +19,5 @@ AddPackage wireplumber         # Session / policy manager implementation for Pip
 AddPackage wl-clipboard        # Command-line copy/paste utilities for Wayland
 AddPackage zathura             # Minimalistic document viewer
 AddPackage zathura-pdf-mupdf   # PDF support for Zathura (MuPDF backend) (Supports PDF, ePub, and OpenXPS)
+
+AddPackage --foreign filen-desktop-bin # Desktop client including Syncing, Virtual Drive mounting, S3, WebDAV, File Browsing, Chats, Notes, Contacts and more.(Prebuilt version.Use system-wide electron)

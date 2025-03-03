@@ -7,6 +7,7 @@ AddPackage cdrtools        # Highly portable CD/DVD/BluRay command line recordin
 AddPackage chafa           # Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.
 AddPackage chezmoi         # Manage your dotfiles across multiple machines
 AddPackage eza             # A modern replacement for ls (community fork of exa)
+AddPackage fastfetch       # A feature-rich and performance oriented neofetch like system information tool
 AddPackage fd              # Simple, fast and user-friendly alternative to find
 AddPackage fzf             # Command-line fuzzy finder
 AddPackage gdu             # Fast disk usage analyzer

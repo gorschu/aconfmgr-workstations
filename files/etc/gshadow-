@@ -74,7 +74,7 @@ cups:!*::
 fwupd:!*::
 passim:!*::
 incus:!*::incus
-incus-admin:!*::
+incus-admin:!*::gorschu
 dnsmasq:!*::
 gluster:!*::
 rpc:!*::

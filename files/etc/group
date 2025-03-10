@@ -78,3 +78,4 @@ incus-admin:x:955:gorschu
 dnsmasq:x:954:
 gluster:x:953:
 rpc:x:32:
+virtlogin:x:952:

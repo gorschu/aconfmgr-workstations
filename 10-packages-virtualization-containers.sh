@@ -9,6 +9,7 @@ AddPackage qemu-full      # A full QEMU setup
 AddPackage skopeo         # A command line utility for various operations on container images and image repositories.
 AddPackage swtpm          # Libtpms-based TPM emulator with socket, character device, and Linux CUSE interface
 AddPackage umoci          # Umoci Modifies Open Container Images
+AddPackage virt-viewer    # A lightweight interface for interacting with the graphical display of virtualized guest OS.
 AddPackage virt-what      # A small program that prints out a list of facts about a virtual machine
 
 CreateLink /etc/systemd/system/sockets.target.wants/incus-user.socket /usr/lib/systemd/system/incus-user.socket

@@ -1,5 +1,6 @@
 # shellcheck shell=bash
 AddPackage 7zip            # File archiver for extremely high compression
+AddPackage atool           # A script for managing file archives of various types
 AddPackage atuin           # Magical shell history
 AddPackage bat             # Cat clone with syntax highlighting and git integration
 AddPackage btop            # A monitor of system resources, bpytop ported to C++
@@ -23,6 +24,7 @@ AddPackage tldr            # Command line client for tldr, a collection of simpl
 AddPackage tmux            # Terminal multiplexer
 AddPackage topgrade        # Upgrade all the things
 AddPackage trash-cli       # Command line trashcan (recycle bin) interface
+AddPackage unrar           # The RAR uncompression program
 AddPackage unzip           # For extracting and viewing files in .zip archives
 AddPackage vivid           # LS_COLORS manager with multiple themes
 AddPackage xdelta3         # Diff utility for binary files
@@ -30,6 +32,7 @@ AddPackage yazi            # Blazing fast terminal file manager written in Rust,
 AddPackage yt-dlp          # A youtube-dl fork with additional features and fixes
 AddPackage yubikey-manager # Python library and command line tool for configuring a YubiKey
 AddPackage zellij          # A terminal multiplexer
+AddPackage zip             # Compressor/archiver for creating and modifying zipfiles
 AddPackage zoxide          # A smarter cd command for your terminal
 AddPackage zsh             # A very advanced and programmable command interpreter (shell) for UNIX
 

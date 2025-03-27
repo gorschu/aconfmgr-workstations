@@ -1,4 +1,5 @@
 # shellcheck shell=bash
+AddPackage adwaita-fonts # The typefaces for GNOME
 AddPackage noto-fonts
 AddPackage noto-fonts-emoji
 AddPackage ttf-dejavu              # Font family based on the Bitstream Vera Fonts with a wider range of characters

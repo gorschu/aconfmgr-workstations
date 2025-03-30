@@ -1,5 +1,8 @@
 # shellcheck shell=bash
-AddPackage adwaita-fonts # The typefaces for GNOME
+AddPackage adobe-source-sans-fonts     # Sans-serif font family for user interface environments
+AddPackage adobe-source-serif-fonts    # Serif typeface designed to complement Source Sans
+AddPackage adobe-source-code-pro-fonts # Monospaced font family for user interface and coding environments
+AddPackage adwaita-fonts               # The typefaces for GNOME
 AddPackage noto-fonts
 AddPackage noto-fonts-emoji
 AddPackage ttf-dejavu              # Font family based on the Bitstream Vera Fonts with a wider range of characters

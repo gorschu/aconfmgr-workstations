@@ -13,4 +13,5 @@ AddPackage strace                 # A diagnostic, debugging and instructional us
 AddPackage usage                  # A specification for CLIs
 AddPackage visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 
-AddPackage --foreign gita # Command-line tool to manage multiple git repos
+AddPackage --foreign gita                           # Command-line tool to manage multiple git repos
+AddPackage --foreign intellij-idea-ultimate-edition # An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.

@@ -19,6 +19,7 @@ AddPackage just                # A handy way to save and run project-specific co
 AddPackage less                # A terminal based program for viewing text files
 AddPackage neovim              # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage perl-image-exiftool # Reader and rewriter of EXIF information that supports raw files
+AddPackage pigz                # Parallel implementation of the gzip file compressor
 AddPackage renameutils         # A set of programs designed to make renaming of files faster and less cumbersome
 AddPackage starship            # The cross-shell prompt for astronauts
 AddPackage tldr                # Command line client for tldr, a collection of simplified man pages.

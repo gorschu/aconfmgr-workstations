@@ -21,6 +21,7 @@ AddPackage neovim              # Fork of Vim aiming to improve user experience, 
 AddPackage perl-image-exiftool # Reader and rewriter of EXIF information that supports raw files
 AddPackage pigz                # Parallel implementation of the gzip file compressor
 AddPackage renameutils         # A set of programs designed to make renaming of files faster and less cumbersome
+AddPackage restic              # Fast, secure, efficient backup program
 AddPackage starship            # The cross-shell prompt for astronauts
 AddPackage tldr                # Command line client for tldr, a collection of simplified man pages.
 AddPackage tmux                # Terminal multiplexer

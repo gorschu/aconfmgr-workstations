@@ -31,3 +31,5 @@ CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/sys
 CreateLink /etc/systemd/system/dbus-org.freedesktop.resolve1.service /usr/lib/systemd/system/systemd-resolved.service
 CreateLink /etc/systemd/system/sysinit.target.wants/systemd-resolved.service /usr/lib/systemd/system/systemd-resolved.service
 CreateLink /etc/resolv.conf ../run/systemd/resolve/stub-resolv.conf
+
+CreateLink /etc/systemd/system/multi-user.target.wants/tailscaled.service /usr/lib/systemd/system/tailscaled.service

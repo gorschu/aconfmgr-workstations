@@ -14,6 +14,7 @@ AddPackage pipewire            # Low-latency audio/video router and processor
 AddPackage pipewire-alsa       # Low-latency audio/video router and processor - ALSA configuration
 AddPackage pipewire-jack       # Low-latency audio/video router and processor - JACK replacement
 AddPackage pipewire-pulse      # Low-latency audio/video router and processor - PulseAudio replacement
+AddPackage thunderbird         # Standalone mail and news reader from mozilla.org
 AddPackage vulkan-intel        # Open-source Vulkan driver for Intel GPUs
 AddPackage vulkan-radeon       # Open-source Vulkan driver for AMD GPUs
 AddPackage wireplumber         # Session / policy manager implementation for PipeWire
@@ -21,4 +22,5 @@ AddPackage wl-clipboard        # Command-line copy/paste utilities for Wayland
 AddPackage zathura             # Minimalistic document viewer
 AddPackage zathura-pdf-mupdf   # PDF support for Zathura (MuPDF backend) (Supports PDF, ePub, and OpenXPS)
 
-AddPackage --foreign filen-desktop-bin # Desktop client including Syncing, Virtual Drive mounting, S3, WebDAV, File Browsing, Chats, Notes, Contacts and more.(Prebuilt version.Use system-wide electron)
+AddPackage --foreign filen-desktop-bin       # Desktop client including Syncing, Virtual Drive mounting, S3, WebDAV, File Browsing, Chats, Notes, Contacts and more.(Prebuilt version.Use system-wide electron)
+AddPackage --foreign external-editor-revived # External Editor Revived is a Thunderbird MailExtension which allows editing emails in programs such as Vim, Neovim, Emacs, etc.

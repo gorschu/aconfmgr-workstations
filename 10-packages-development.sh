@@ -9,6 +9,7 @@ AddPackage lazygit                # Simple terminal UI for git commands
 AddPackage mise                   # The front-end to your dev env
 AddPackage nodejs                 # Evented I/O for V8 javascript
 AddPackage npm                    # JavaScript package manager
+AddPackage rustup                 # The Rust toolchain installer
 AddPackage strace                 # A diagnostic, debugging and instructional userspace tracer
 AddPackage usage                  # A specification for CLIs
 AddPackage visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)

@@ -5,6 +5,7 @@ AddPackage adobe-source-code-pro-fonts # Monospaced font family for user interfa
 AddPackage adwaita-fonts               # The typefaces for GNOME
 AddPackage noto-fonts
 AddPackage noto-fonts-emoji
+AddPackage otf-font-awesome        # Iconic font designed for Bootstrap
 AddPackage ttf-dejavu              # Font family based on the Bitstream Vera Fonts with a wider range of characters
 AddPackage ttf-jetbrains-mono-nerd # Patched font JetBrains Mono from nerd fonts library
 AddPackage ttf-liberation          # Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New

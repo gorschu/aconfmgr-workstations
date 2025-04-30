@@ -9,3 +9,4 @@ CopyFile /etc/pacman.d/mirrorlist
 CopyFile /etc/mkinitcpio.conf
 CopyFile /etc/mkinitcpio.d/linux.preset
 CopyFile /etc/mkinitcpio.d/linux-cachyos.preset
+CopyFile /etc/mkinitcpio.d/linux-cachyos-lts.preset

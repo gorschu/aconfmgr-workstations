@@ -9,6 +9,7 @@ AddPackage fwupd                   # Simple daemon to allow session software to 
 AddPackage gptfdisk                # A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
 AddPackage linux                   # The Linux kernel and modules
 AddPackage linux-cachyos           # The Linux BORE + LTO + AutoFDO Cachy Sauce Kernel by CachyOS with other patches and improvements. kernel and modules
+AddPackage linux-cachyos-lts       # The Linux BORE + Cachy Sauce Kernel by CachyOS with other patches and improvements - Long Term Service kernel and modules
 AddPackage linux-firmware          # Firmware files for Linux
 AddPackage man-db                  # A utility for reading man pages
 AddPackage sbsigntools             # Tools to add signatures to EFI binaries and Drivers

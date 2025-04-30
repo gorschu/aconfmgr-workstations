@@ -6,10 +6,12 @@ AddPackage libvirt        # API for controlling virtualization engines (openvz,k
 AddPackage podman         # Tool and library for running OCI-based containers in pods
 AddPackage podman-compose # A script to run docker-compose.yml using podman
 AddPackage qemu-full      # A full QEMU setup
+AddPackage quickemu-git   # Quickly create and run optimised Windows, macOS and Linux desktop virtual machines
 AddPackage skopeo         # A command line utility for various operations on container images and image repositories.
 AddPackage swtpm          # Libtpms-based TPM emulator with socket, character device, and Linux CUSE interface
 AddPackage umoci          # Umoci Modifies Open Container Images
 AddPackage virt-viewer    # A lightweight interface for interacting with the graphical display of virtualized guest OS.
+AddPackage virt-manager   # Desktop user interface for managing virtual machines
 AddPackage virt-what      # A small program that prints out a list of facts about a virtual machine
 
 CreateLink /etc/systemd/system/sockets.target.wants/incus-user.socket /usr/lib/systemd/system/incus-user.socket

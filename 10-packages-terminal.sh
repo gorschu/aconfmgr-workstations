@@ -40,4 +40,3 @@ AddPackage zoxide              # A smarter cd command for your terminal
 AddPackage zsh                 # A very advanced and programmable command interpreter (shell) for UNIX
 
 AddPackage --foreign clipboard-bin # Cut, copy, and paste anything in your terminal (binary version).
-AddPackage --foreign filen-cli-bin # The Filen CLI provides a set of useful tools for interacting with the cloud.

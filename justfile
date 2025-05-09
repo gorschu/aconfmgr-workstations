@@ -5,6 +5,18 @@ default:
 # apply aconfmgr config and execute subsequent internal recipes
 apply: _aconfmgr _user-services _add-printer
 
+bootstrap:
+  #!/usr/bin/env bash
+  # install paru
+  if ! command -v paru 2>&1 >/dev/null; then
+    tmp=$(mktemp -d)
+    git clone https://aur.archlinux.org/paru-bin ${tmp}
+    cd ${tmp}
+    makepkg -si
+  fi
+  # install 1password and git-crypt
+  paru -Sy --needed 1password git-crypt aconfmgr-git
+
 _aconfmgr:
   aconfmgr apply
   sudo mkinitcpio -P
@@ -13,7 +25,7 @@ _aconfmgr:
 _user-services:
   #!/usr/bin/env bash
   systemctl --user daemon-reload
-  for service in atuin.service systemd-tmpfiles-setup.service msmtp-runqueue.timer; do
+  for service in atuin.service systemd-tmpfiles-setup.service; do
     systemctl --user enable --now "${service}"
   done
 

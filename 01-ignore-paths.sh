@@ -32,3 +32,6 @@ IgnorePath '/var/lib'
 IgnorePath '/var/log'
 IgnorePath '/var/spool'
 IgnorePath '/var/tmp'
+
+IgnorePath '/.snapshots'
+IgnorePath '/.btrfs-root'

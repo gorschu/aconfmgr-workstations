@@ -79,3 +79,4 @@ dnsmasq:x:954:
 gluster:x:953:
 rpc:x:32:
 virtlogin:x:952:
+seat:x:951:

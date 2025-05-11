@@ -7,8 +7,12 @@ AddPackage dosfstools              # DOS filesystem utilities
 AddPackage efibootmgr              # Linux user-space application to modify the EFI Boot Manager
 AddPackage fwupd                   # Simple daemon to allow session software to update firmware
 AddPackage gptfdisk                # A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
+AddPackage linux                   # The Linux kernel and modules
+AddPackage linux-headers           # Headers and scripts for building modules for the Linux kernel
 AddPackage linux-lts               # The LTS Linux kernel and modules
+AddPackage linux-lts-headers       # Headers and scripts for building modules for the LTS Linux kernel
 AddPackage linux-zen               # The Linux ZEN kernel and modules
+AddPackage linux-zen-headers       # Headers and scripts for building modules for the Linux ZEN kernel
 AddPackage linux-firmware          # Firmware files for Linux
 AddPackage man-db                  # A utility for reading man pages
 AddPackage sbsigntools             # Tools to add signatures to EFI binaries and Drivers

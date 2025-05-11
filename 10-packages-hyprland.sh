@@ -4,6 +4,8 @@ AddPackage ddcutil                     # Query and change Linux monitor settings
 AddPackage hypridle                    # hyprland’s idle daemon
 AddPackage hyprland                    # a highly customizable dynamic tiling Wayland compositor
 AddPackage hyprlock                    # hyprland’s GPU-accelerated screen locking utility
+AddPackage hyprpolkitagent             # Simple polkit authentication agent for Hyprland, written in QT/QML
+AddPackage hyprsunset                  # An application to enable a blue-light filter on Hyprland
 AddPackage shikane                     # Deterministic dynamic output configuration tool for Wayland compositors
 AddPackage swww                        # A Solution to your Wayland Wallpaper Woes
 AddPackage uwsm                        # A standalone Wayland session manager

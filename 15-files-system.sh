@@ -17,6 +17,9 @@ CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
 
 CopyFile /etc/modules-load.d/filesystems.conf
 
+CopyFile /usr/lib/systemd/system-sleep/batenergy.sh
+SetFileProperty /usr/lib/systemd/system-sleep/batenergy.sh mode 755
+
 CreateLink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service /usr/lib/systemd/system/NetworkManager-dispatcher.service
 CreateLink /etc/systemd/system/dbus-org.freedesktop.timesync1.service /usr/lib/systemd/system/systemd-timesyncd.service
 CreateLink /etc/systemd/system/getty.target.wants/getty@tty1.service /usr/lib/systemd/system/getty@.service

@@ -20,6 +20,9 @@ CopyFile /etc/modules-load.d/filesystems.conf
 CopyFile /usr/lib/systemd/system-sleep/batenergy.sh
 SetFileProperty /usr/lib/systemd/system-sleep/batenergy.sh mode 755
 
+# Enable Magic SysRq
+echo "kernel.sysrq = 1" >"$(CreateFile /etc/sysctl.d/99-sysrq.conf)"
+
 CreateLink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service /usr/lib/systemd/system/NetworkManager-dispatcher.service
 CreateLink /etc/systemd/system/dbus-org.freedesktop.timesync1.service /usr/lib/systemd/system/systemd-timesyncd.service
 CreateLink /etc/systemd/system/getty.target.wants/getty@tty1.service /usr/lib/systemd/system/getty@.service

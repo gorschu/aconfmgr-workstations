@@ -25,6 +25,7 @@ IgnorePath '/etc/subgid-'
 
 IgnorePath '/usr/lib/gconv'
 IgnorePath '/usr/lib/gdk-pixbuf-2.0'
+IgnorePath '/usr/lib/ghc*'
 IgnorePath '/usr/lib/gio'
 IgnorePath '/usr/lib/gtk-3.0'
 IgnorePath '/usr/lib/gtk-4.0'

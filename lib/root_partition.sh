@@ -8,3 +8,7 @@ export partitions_root
 function get_root_UUID {
   sudo blkid -s UUID -o value /dev/disk/by-id/"${partitions_root["${1}"]}"
 }
+function get_root_luks_UUID {
+  root_uuid=$(get_root_UUID "$(hostnamectl hostname)")
+  sudo blkid -s UUID -o value /dev/disk/by-id/dm-name-luks-"${root_uuid}"
+}

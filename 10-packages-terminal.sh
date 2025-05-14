@@ -3,6 +3,7 @@ AddPackage 7zip                # File archiver for extremely high compression
 AddPackage atool               # A script for managing file archives of various types
 AddPackage atuin               # Magical shell history
 AddPackage bat                 # Cat clone with syntax highlighting and git integration
+AddPackage bc                  # An arbitrary precision calculator language
 AddPackage btop                # A monitor of system resources, bpytop ported to C++
 AddPackage cdrtools            # Highly portable CD/DVD/BluRay command line recording software
 AddPackage chafa               # Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.
@@ -19,6 +20,7 @@ AddPackage just                # A handy way to save and run project-specific co
 AddPackage less                # A terminal based program for viewing text files
 AddPackage neovim              # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage perl-image-exiftool # Reader and rewriter of EXIF information that supports raw files
+AddPackage pdfgrep             # A tool to search text in PDF files
 AddPackage pigz                # Parallel implementation of the gzip file compressor
 AddPackage renameutils         # A set of programs designed to make renaming of files faster and less cumbersome
 AddPackage restic              # Fast, secure, efficient backup program

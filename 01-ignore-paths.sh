@@ -12,6 +12,8 @@ IgnorePath '/etc/ssl'
 IgnorePath '/etc/pacman.d/gnupg'
 IgnorePath '/etc/ld.so.cache'
 
+IgnorePath '/etc/**/*.pacsave'
+IgnorePath '/etc/**/*.bak'
 IgnorePath '/etc/.updated'
 IgnorePath '/etc/.pwd.lock'
 IgnorePath '/etc/brlapi.key'

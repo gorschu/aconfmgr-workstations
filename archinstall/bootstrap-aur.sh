@@ -33,3 +33,9 @@ if ! pacman -Qi aconfmgr-git &>/dev/null; then
   $prefix -- git clone https://aur.archlinux.org/aconfmgr-git "${tmpdir}/aconfmgr"
   $prefix --chdir "${tmpdir}/aconfmgr" -- makepkg --noconfirm --needed -si
 fi
+if ! pacman -Qi 1password &>/dev/null; then
+  curl -sS https://downloads.1password.com/linux/keys/1password.asc | gpg --import
+  tmpdir=$($prefix -- mktemp -d)
+  $prefix -- git clone https://aur.archlinux.org/1password "${tmpdir}/1password"
+  $prefix --chdir "${tmpdir}/1password" -- makepkg --noconfirm --needed -si
+fi

@@ -8,10 +8,6 @@ CopyFile /etc/sudoers.d/00_gorschu 440
 CopyFile /etc/systemd/zram-generator.conf
 CopyFile /etc/vconsole.conf
 CreateFile /var/db/sudo/lectured/1000 600 '' gorschu >/dev/null
-CopyFile /etc/group
-CopyFile /etc/group-
-CopyFile /etc/gshadow
-CopyFile /etc/gshadow- 600
 
 CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
 

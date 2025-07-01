@@ -31,6 +31,7 @@ _user-services:
 
 _add-printer:
   #!/usr/bin/env bash
+  sudo systemctl start cups.service
   set -o pipefail
   lpstat -p 2>/dev/null | grep -q "Epson_WorkForce_Pro_WF-4830"
   if [[ "$?" -ne 0 ]]; then

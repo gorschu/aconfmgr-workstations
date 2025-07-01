@@ -15,6 +15,7 @@ AddPackage pipewire-alsa       # Low-latency audio/video router and processor - 
 AddPackage pipewire-jack       # Low-latency audio/video router and processor - JACK replacement
 AddPackage pipewire-pulse      # Low-latency audio/video router and processor - PulseAudio replacement
 AddPackage thunderbird         # Standalone mail and news reader from mozilla.org
+AddPackage trayscale           # An unofficial GUI wrapper for the Tailscale CLI client.
 AddPackage vulkan-intel        # Open-source Vulkan driver for Intel GPUs
 AddPackage vulkan-radeon       # Open-source Vulkan driver for AMD GPUs
 AddPackage wireplumber         # Session / policy manager implementation for PipeWire

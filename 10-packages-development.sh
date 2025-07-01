@@ -9,6 +9,7 @@ AddPackage lazygit                # Simple terminal UI for git commands
 AddPackage mise                   # The front-end to your dev env
 AddPackage nodejs                 # Evented I/O for V8 javascript
 AddPackage npm                    # JavaScript package manager
+AddPackage pre-commit             # A framework for managing and maintaining multi-language pre-commit hooks
 AddPackage rustup                 # The Rust toolchain installer
 AddPackage strace                 # A diagnostic, debugging and instructional userspace tracer
 AddPackage usage                  # A specification for CLIs

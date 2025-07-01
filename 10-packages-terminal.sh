@@ -24,6 +24,7 @@ AddPackage pdfgrep             # A tool to search text in PDF files
 AddPackage pigz                # Parallel implementation of the gzip file compressor
 AddPackage renameutils         # A set of programs designed to make renaming of files faster and less cumbersome
 AddPackage restic              # Fast, secure, efficient backup program
+AddPackage ripgrep             # A search tool that combines the usability of ag with the raw speed of grep
 AddPackage starship            # The cross-shell prompt for astronauts
 AddPackage tldr                # Command line client for tldr, a collection of simplified man pages.
 AddPackage tmux                # Terminal multiplexer

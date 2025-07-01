@@ -1,0 +1,24 @@
+hephaestus:
+  desktops:
+    - gnome
+    - hyprland
+  uses_zfs: true
+  uses_cachy_kernel: true
+  partitions:
+    root: "nvme-eui.002538bc61b3991c-part2"
+apollo:
+  desktops:
+    - gnome
+    - hyprland
+  uses_zfs: true
+  uses_cachy_kernel: true
+  partitions:
+    root: "nvme-eui.0025388311b2ba65-part2"
+artemis:
+  desktops:
+    - gnome
+    - hyprland
+  uses_zfs: true
+  uses_cachy_kernel: true
+  partitions:
+    root: "nvme-eui.00000000000000000026b7685ec110a5-part2"

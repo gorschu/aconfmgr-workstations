@@ -1,5 +1,5 @@
 # shellcheck shell=bash
-if grep -q zfs /proc/modules; then
+if [[ ${DATA_USES_ZFS} == true ]]; then
   CopyFile "/etc/modprobe.d/zfs.conf"
   CopyFile "/etc/zfs/zfskey_rpool_$(hostnamectl hostname)" 600
   CopyFile "/etc/systemd/system/zfs-load-key.service"

@@ -1,5 +1,6 @@
 # shellcheck shell=bash
-. lib/root_partition.sh
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
+. "${SCRIPT_DIR}/lib/root_partition.sh"
 
 if [[ "${DATA_USES_BTRFS}" == true ]]; then
   AddPackage btrbk   # Tool for creating snapshots and remote backups of btrfs subvolumes

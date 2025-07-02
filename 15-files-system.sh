@@ -19,6 +19,10 @@ SetFileProperty /usr/lib/systemd/system-sleep/batenergy.sh mode 755
 # Enable Magic SysRq
 echo "kernel.sysrq = 1" >"$(CreateFile /etc/sysctl.d/99-sysrq.conf)"
 
+# powertop
+CopyFile /etc/systemd/system/powertop.service 644
+CreateLink /etc/systemd/system/multi-user.target.wants/powertop.service /etc/systemd/system/powertop.service
+
 CreateLink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service /usr/lib/systemd/system/NetworkManager-dispatcher.service
 CreateLink /etc/systemd/system/dbus-org.freedesktop.timesync1.service /usr/lib/systemd/system/systemd-timesyncd.service
 CreateLink /etc/systemd/system/getty.target.wants/getty@tty1.service /usr/lib/systemd/system/getty@.service

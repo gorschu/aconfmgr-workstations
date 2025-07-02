@@ -8,6 +8,7 @@ AddPackage efibootmgr              # Linux user-space application to modify the 
 AddPackage fwupd                   # Simple daemon to allow session software to update firmware
 AddPackage gptfdisk                # A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
 AddPackage man-db                  # A utility for reading man pages
+AddPackage powertop                # A tool to diagnose issues with power consumption and power management
 AddPackage sbsigntools             # Tools to add signatures to EFI binaries and Drivers
 AddPackage smartmontools           # Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
 AddPackage systemd-ukify           # Combine kernel and initrd into a signed Unified Kernel Image
